@@ -1,0 +1,30 @@
+[05:47:54] args={'src': 'ids17', 'eval_domains': 'ddos19_d1,ddos19_d2,ids17', 'arch': 'mlp', 'seed': 4, 'rounds': 16, 'rate': 0.2, 'epochs': 10, 'lr': 0.001, 'rewind_frac': 0.05, 'eval_rounds': '4,7,10,13,16', 'at_tm': 'flow', 'at_eps': 1.0, 'at_steps': 5, 'at_bs': 4096, 'at_lr': 0.002, 'hydra_epochs': 5, 'baseline_rounds': '10,13,16', 'no_sanity': True, 'methods': 'omp_at,lamp_at,hydra', 'n_attack': 3000, 'tag': ''} env={'python': '3.12.7', 'torch': '2.5.1', 'cuda': '12.1', 'gpu': 'NVIDIA GeForce GTX 1660 Ti', 'platform': 'Windows-11-10.0.26200-SP0', 'numpy': '2.1.3'}
+[05:47:56] immutable baseline keeps 51/76 features: ['Total Backward Packets', 'Total Length of Bwd Packets', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow IAT Std', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Std', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Bwd IAT Min', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Min Packet Length', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Avg Bwd Segment Size', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Active Min', 'Idle Mean', 'Idle Std', 'Idle Max', 'Idle Min']
+[05:48:16] immutable_std r= 0 sp=0.000 bacc=0.9931 ESR_AUC(u)=0.481 ESR_AUC(c)=0.269 flow=0.017 t=8s
+[05:49:43] dense_at      r= 0 sp=0.000 bacc=0.9858 ESR_AUC(u)=0.494 ESR_AUC(c)=0.636 flow=0.013 t=75s
+[05:50:58] aimp r=1 sp=0.200 (not evaluated)
+[05:52:12] aimp r=2 sp=0.360 (not evaluated)
+[05:53:26] aimp r=3 sp=0.488 (not evaluated)
+[05:54:52] aimp          r= 4 sp=0.590 bacc=0.9862 ESR_AUC(u)=0.543 ESR_AUC(c)=0.682 flow=0.012 t=74s
+[05:56:06] aimp r=5 sp=0.672 (not evaluated)
+[05:57:20] aimp r=6 sp=0.738 (not evaluated)
+[05:58:46] aimp          r= 7 sp=0.790 bacc=0.9865 ESR_AUC(u)=0.533 ESR_AUC(c)=0.688 flow=0.007 t=74s
+[06:00:00] aimp r=8 sp=0.832 (not evaluated)
+[06:01:15] aimp r=9 sp=0.866 (not evaluated)
+[06:02:42] aimp          r=10 sp=0.893 bacc=0.9865 ESR_AUC(u)=0.510 ESR_AUC(c)=0.661 flow=0.009 t=75s
+[06:03:57] aimp r=11 sp=0.914 (not evaluated)
+[06:05:11] aimp r=12 sp=0.931 (not evaluated)
+[06:06:37] aimp          r=13 sp=0.945 bacc=0.9845 ESR_AUC(u)=0.511 ESR_AUC(c)=0.632 flow=0.009 t=74s
+[06:07:52] aimp r=14 sp=0.956 (not evaluated)
+[06:09:06] aimp r=15 sp=0.965 (not evaluated)
+[06:10:32] aimp          r=16 sp=0.972 bacc=0.9139 ESR_AUC(u)=0.234 ESR_AUC(c)=0.477 flow=0.034 t=75s
+[06:11:58] omp_at        r=10 sp=0.893 bacc=0.9829 ESR_AUC(u)=0.599 ESR_AUC(c)=0.718 flow=0.007 t=75s
+[06:13:24] lamp_at       r=10 sp=0.893 bacc=0.9756 ESR_AUC(u)=0.666 ESR_AUC(c)=0.765 flow=0.012 t=75s
+[06:15:33] hydra         r=10 sp=0.893 bacc=0.9814 ESR_AUC(u)=0.429 ESR_AUC(c)=0.612 flow=0.009 t=118s
+[06:16:59] omp_at        r=13 sp=0.945 bacc=0.9719 ESR_AUC(u)=0.423 ESR_AUC(c)=0.601 flow=0.014 t=75s
+[06:18:26] lamp_at       r=13 sp=0.945 bacc=0.9725 ESR_AUC(u)=0.636 ESR_AUC(c)=0.748 flow=0.025 t=75s
+[06:20:35] hydra         r=13 sp=0.945 bacc=0.9691 ESR_AUC(u)=0.443 ESR_AUC(c)=0.620 flow=0.023 t=118s
+[06:21:51] omp_at        r=16 sp=0.972 bacc=0.5000 ESR_AUC(u)=0.000 ESR_AUC(c)=0.000 flow=nan t=74s
+[06:23:17] lamp_at       r=16 sp=0.972 bacc=0.9477 ESR_AUC(u)=0.575 ESR_AUC(c)=0.739 flow=0.007 t=74s
+[06:25:24] hydra         r=16 sp=0.972 bacc=0.9266 ESR_AUC(u)=0.404 ESR_AUC(c)=0.531 flow=0.015 t=117s
+[06:25:24] done

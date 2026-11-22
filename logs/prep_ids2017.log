@@ -1,0 +1,90 @@
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv {'rows': 225745, 'benign': 97718, 'attack': 128027, 'kept': 59787}
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv {'rows': 286467, 'benign': 127537, 'attack': 158930, 'kept': 60053}
+Friday-WorkingHours-Morning.pcap_ISCX.csv {'rows': 191033, 'benign': 189067, 'attack': 1966, 'kept': 31671}
+Monday-WorkingHours.pcap_ISCX.csv {'rows': 529918, 'benign': 529918, 'attack': 0, 'kept': 30114}
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv {'rows': 288602, 'benign': 288566, 'attack': 36, 'kept': 29869}
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv {'rows': 170366, 'benign': 168186, 'attack': 2180, 'kept': 32225}
+Tuesday-WorkingHours.pcap_ISCX.csv {'rows': 445909, 'benign': 432074, 'attack': 13835, 'kept': 43663}
+Wednesday-workingHours.pcap_ISCX.csv {'rows': 692703, 'benign': 440031, 'attack': 252672, 'kept': 59940}
+{
+ "dataset": "CIC-IDS2017 MachineLearningCVE",
+ "root": "D:/Research Projects/Lottery Ticket Hypothesis/MachineLearningCVE",
+ "cap_per_file_per_class": 30000,
+ "seed": 0,
+ "per_file": {
+  "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": {
+   "rows": 225745,
+   "benign": 97718,
+   "attack": 128027,
+   "kept": 59787
+  },
+  "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": {
+   "rows": 286467,
+   "benign": 127537,
+   "attack": 158930,
+   "kept": 60053
+  },
+  "Friday-WorkingHours-Morning.pcap_ISCX.csv": {
+   "rows": 191033,
+   "benign": 189067,
+   "attack": 1966,
+   "kept": 31671
+  },
+  "Monday-WorkingHours.pcap_ISCX.csv": {
+   "rows": 529918,
+   "benign": 529918,
+   "attack": 0,
+   "kept": 30114
+  },
+  "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": {
+   "rows": 288602,
+   "benign": 288566,
+   "attack": 36,
+   "kept": 29869
+  },
+  "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": {
+   "rows": 170366,
+   "benign": 168186,
+   "attack": 2180,
+   "kept": 32225
+  },
+  "Tuesday-WorkingHours.pcap_ISCX.csv": {
+   "rows": 445909,
+   "benign": 432074,
+   "attack": 13835,
+   "kept": 43663
+  },
+  "Wednesday-workingHours.pcap_ISCX.csv": {
+   "rows": 692703,
+   "benign": 440031,
+   "attack": 252672,
+   "kept": 59940
+  }
+ },
+ "rows_after_sampling": 347322,
+ "dropped_nan_inf": 348,
+ "dropped_duplicates": 63679,
+ "label_ambiguous_rows": 118,
+ "final_rows": 283295,
+ "class_counts": {
+  "BENIGN": 216659,
+  "DDoS": 29854,
+  "DoS Hulk": 20906,
+  "FTP-Patator": 5931,
+  "SSH-Patator": 3219,
+  "Web Attack \u00ef\u00bf\u00bd Brute Force": 1470,
+  "Bot": 1437,
+  "DoS GoldenEye": 1208,
+  "DoS slowloris": 664,
+  "Web Attack \u00ef\u00bf\u00bd XSS": 652,
+  "DoS Slowhttptest": 641,
+  "PortScan": 593,
+  "Infiltration": 36,
+  "Web Attack \u00ef\u00bf\u00bd Sql Injection": 21,
+  "Heartbleed": 4
+ },
+ "binary_counts": {
+  "0": 216659,
+  "1": 66636
+ }
+}

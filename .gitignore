@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# raw CIC downloads are not redistributed here (see README, "Data")
+raw_data/
+MachineLearningCVE/
+logs/driver.lock

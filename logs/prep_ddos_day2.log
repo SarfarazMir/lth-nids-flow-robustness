@@ -1,0 +1,71 @@
+LDAP.parquet: rows=2059122 benign=5053 attack_kept=29913 [6s]
+MSSQL.parquet: rows=5573569 benign=2771 attack_kept=29991 [20s]
+NetBIOS.parquet: rows=3325339 benign=1299 attack_kept=30221 [27s]
+Portmap.parquet: rows=181894 benign=4697 attack_kept=29341 [27s]
+Syn.parquet: rows=4037465 benign=35387 attack_kept=29942 [42s]
+UDP.parquet: rows=3705159 benign=3083 attack_kept=30024 [56s]
+UDPLag.parquet: rows=674463 benign=4016 attack_kept=29924 [58s]
+{
+ "dataset": "CIC-DDoS2019",
+ "day": "03-11",
+ "source": "test_parquet",
+ "attack_cap_per_file": 30000,
+ "seed": 0,
+ "per_file": {
+  "LDAP.parquet": {
+   "rows": 2059122,
+   "benign_kept": 5053,
+   "attack_kept": 29913
+  },
+  "MSSQL.parquet": {
+   "rows": 5573569,
+   "benign_kept": 2771,
+   "attack_kept": 29991
+  },
+  "NetBIOS.parquet": {
+   "rows": 3325339,
+   "benign_kept": 1299,
+   "attack_kept": 30221
+  },
+  "Portmap.parquet": {
+   "rows": 181894,
+   "benign_kept": 4697,
+   "attack_kept": 29341
+  },
+  "Syn.parquet": {
+   "rows": 4037465,
+   "benign_kept": 35387,
+   "attack_kept": 29942
+  },
+  "UDP.parquet": {
+   "rows": 3705159,
+   "benign_kept": 3083,
+   "attack_kept": 30024
+  },
+  "UDPLag.parquet": {
+   "rows": 674463,
+   "benign_kept": 4016,
+   "attack_kept": 29924
+  }
+ },
+ "rows_after_sampling": 265662,
+ "dropped_nan_inf": 0,
+ "dropped_duplicates": 180062,
+ "label_ambiguous_rows": 1154,
+ "final_rows": 85600,
+ "class_counts": {
+  "BENIGN": 45101,
+  "UDP": 18436,
+  "Syn": 9716,
+  "MSSQL": 9528,
+  "LDAP": 1539,
+  "NetBIOS": 664,
+  "Portmap": 569,
+  "UDPLag": 47
+ },
+ "binary_counts": {
+  "0": 45101,
+  "1": 40499
+ }
+}
+done

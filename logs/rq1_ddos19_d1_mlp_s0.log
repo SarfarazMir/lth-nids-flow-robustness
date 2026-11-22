@@ -1,0 +1,68 @@
+[22:10:52] args={'src': 'ddos19_d1', 'eval_domains': 'ddos19_d2,ids17,ddos19_d1', 'arch': 'mlp', 'seed': 0, 'rounds': 20, 'rate': 0.2, 'epochs': 10, 'lr': 0.001, 'rewind_frac': 0.05, 'eval_rounds': '4,7,10,13,16,20', 'baselines': 'imp_reinit,random_lw,erk,snip,grasp,synflow,omp_ft', 'n_attack': 3000, 'tag': ''} env={'python': '3.12.7', 'torch': '2.5.1', 'cuda': '12.1', 'gpu': 'NVIDIA GeForce GTX 1660 Ti', 'platform': 'Windows-11-10.0.26200-SP0', 'numpy': '2.1.3'}
+[22:11:12]   ep 1/10 loss=0.0085 val_bacc=0.9960 [2s]
+[22:11:17]   ep 6/10 loss=0.0112 val_bacc=0.9973 [7s]
+[22:11:20]   ep 10/10 loss=0.0034 val_bacc=0.9978 [10s]
+[22:11:39] dense       r= 0 sp=0.000 bacc=0.9980 F1=0.9979 ESR(u)=0.183 ESR(c)=0.260 ESR(flow)=0.265 ddos19_d2_all=0.990 ids17_all=0.547
+[22:11:47] imp         r= 1 sp=0.200 bacc=0.9985 (clean only)
+[22:11:54] imp         r= 2 sp=0.360 bacc=0.9986 (clean only)
+[22:11:59] imp         r= 3 sp=0.488 bacc=0.9986 (clean only)
+[22:12:19] imp         r= 4 sp=0.590 bacc=0.9986 F1=0.9985 ESR(u)=0.270 ESR(c)=0.388 ESR(flow)=0.211 ddos19_d2_all=0.984 ids17_all=0.525
+[22:12:25] imp         r= 5 sp=0.672 bacc=0.9987 (clean only)
+[22:12:30] imp         r= 6 sp=0.738 bacc=0.9987 (clean only)
+[22:12:48] imp         r= 7 sp=0.790 bacc=0.9987 F1=0.9986 ESR(u)=0.220 ESR(c)=0.320 ESR(flow)=0.160 ddos19_d2_all=0.984 ids17_all=0.528
+[22:12:54] imp         r= 8 sp=0.832 bacc=0.9987 (clean only)
+[22:13:00] imp         r= 9 sp=0.866 bacc=0.9987 (clean only)
+[22:13:36] imp         r=10 sp=0.893 bacc=0.9987 F1=0.9985 ESR(u)=0.175 ESR(c)=0.328 ESR(flow)=0.314 ddos19_d2_all=0.984 ids17_all=0.537
+[22:13:48] imp         r=11 sp=0.914 bacc=0.9987 (clean only)
+[22:14:01] imp         r=12 sp=0.931 bacc=0.9987 (clean only)
+[22:14:34] imp         r=13 sp=0.945 bacc=0.9984 F1=0.9983 ESR(u)=0.230 ESR(c)=0.311 ESR(flow)=0.420 ddos19_d2_all=0.983 ids17_all=0.534
+[22:14:42] imp         r=14 sp=0.956 bacc=0.9966 (clean only)
+[22:14:51] imp         r=15 sp=0.965 bacc=0.9965 (clean only)
+[22:15:27] imp         r=16 sp=0.972 bacc=0.9831 F1=0.9772 ESR(u)=0.078 ESR(c)=0.083 ESR(flow)=0.663 ddos19_d2_all=0.958 ids17_all=0.552
+[22:15:38] imp         r=17 sp=0.977 bacc=0.9930 (clean only)
+[22:15:45] imp         r=18 sp=0.982 bacc=0.9715 (clean only)
+[22:15:55] imp         r=19 sp=0.986 bacc=0.9664 (clean only)
+[22:16:19] imp         r=20 sp=0.988 bacc=0.9177 F1=0.9170 ESR(u)=0.079 ESR(c)=0.000 ESR(flow)=0.578 ddos19_d2_all=0.868 ids17_all=0.708
+[22:16:59] imp_reinit  r= 4 sp=0.590 bacc=0.9982 F1=0.9980 ESR(u)=0.155 ESR(c)=0.289 ESR(flow)=0.045 ddos19_d2_all=0.991 ids17_all=0.526
+[22:17:32] random_lw   r= 4 sp=0.590 bacc=0.9985 F1=0.9983 ESR(u)=0.192 ESR(c)=0.284 ESR(flow)=0.398 ddos19_d2_all=0.989 ids17_all=0.528
+[22:17:57] erk         r= 4 sp=0.590 bacc=0.9982 F1=0.9979 ESR(u)=0.165 ESR(c)=0.302 ESR(flow)=0.442 ddos19_d2_all=0.991 ids17_all=0.527
+[22:18:18] snip        r= 4 sp=0.590 bacc=0.9981 F1=0.9979 ESR(u)=0.149 ESR(c)=0.286 ESR(flow)=0.201 ddos19_d2_all=0.991 ids17_all=0.576
+[22:18:40] grasp       r= 4 sp=0.590 bacc=0.9979 F1=0.9976 ESR(u)=0.257 ESR(c)=0.154 ESR(flow)=0.713 ddos19_d2_all=0.991 ids17_all=0.496
+[22:19:02] synflow     r= 4 sp=0.590 bacc=0.9979 F1=0.9977 ESR(u)=0.170 ESR(c)=0.306 ESR(flow)=0.319 ddos19_d2_all=0.995 ids17_all=0.566
+[22:19:40] omp_ft      r= 4 sp=0.590 bacc=0.9985 F1=0.9984 ESR(u)=0.291 ESR(c)=0.336 ESR(flow)=0.254 ddos19_d2_all=0.986 ids17_all=0.542
+[22:20:26] imp_reinit  r= 7 sp=0.790 bacc=0.9982 F1=0.9980 ESR(u)=0.151 ESR(c)=0.308 ESR(flow)=0.279 ddos19_d2_all=0.992 ids17_all=0.525
+[22:21:15] random_lw   r= 7 sp=0.790 bacc=0.9982 F1=0.9979 ESR(u)=0.150 ESR(c)=0.273 ESR(flow)=0.222 ddos19_d2_all=0.992 ids17_all=0.541
+[22:22:00] erk         r= 7 sp=0.790 bacc=0.9981 F1=0.9980 ESR(u)=0.134 ESR(c)=0.247 ESR(flow)=0.135 ddos19_d2_all=0.994 ids17_all=0.577
+[22:22:29] snip        r= 7 sp=0.790 bacc=0.9980 F1=0.9977 ESR(u)=0.102 ESR(c)=0.291 ESR(flow)=0.747 ddos19_d2_all=0.996 ids17_all=0.576
+[22:23:16] grasp       r= 7 sp=0.790 bacc=0.9979 F1=0.9976 ESR(u)=0.218 ESR(c)=0.172 ESR(flow)=0.747 ddos19_d2_all=0.989 ids17_all=0.494
+[22:24:01] synflow     r= 7 sp=0.790 bacc=0.9981 F1=0.9979 ESR(u)=0.175 ESR(c)=0.377 ESR(flow)=0.222 ddos19_d2_all=0.995 ids17_all=0.553
+[22:24:39] omp_ft      r= 7 sp=0.790 bacc=0.9983 F1=0.9981 ESR(u)=0.267 ESR(c)=0.354 ESR(flow)=0.230 ddos19_d2_all=0.987 ids17_all=0.577
+[22:24:59] imp_reinit  r=10 sp=0.893 bacc=0.9981 F1=0.9978 ESR(u)=0.140 ESR(c)=0.287 ESR(flow)=0.247 ddos19_d2_all=0.990 ids17_all=0.523
+[22:25:27] random_lw   r=10 sp=0.893 bacc=0.9980 F1=0.9977 ESR(u)=0.091 ESR(c)=0.238 ESR(flow)=0.569 ddos19_d2_all=0.996 ids17_all=0.605
+[22:26:01] erk         r=10 sp=0.893 bacc=0.9982 F1=0.9979 ESR(u)=0.134 ESR(c)=0.235 ESR(flow)=0.398 ddos19_d2_all=0.996 ids17_all=0.562
+[22:26:36] snip        r=10 sp=0.893 bacc=0.9981 F1=0.9978 ESR(u)=0.085 ESR(c)=0.293 ESR(flow)=0.427 ddos19_d2_all=0.996 ids17_all=0.561
+[22:26:56] grasp       r=10 sp=0.893 bacc=0.9978 F1=0.9973 ESR(u)=0.180 ESR(c)=0.172 ESR(flow)=0.764 ddos19_d2_all=0.997 ids17_all=0.494
+[22:27:19] synflow     r=10 sp=0.893 bacc=0.9979 F1=0.9976 ESR(u)=0.181 ESR(c)=0.439 ESR(flow)=0.124 ddos19_d2_all=0.992 ids17_all=0.545
+[22:27:49] omp_ft      r=10 sp=0.893 bacc=0.9981 F1=0.9978 ESR(u)=0.245 ESR(c)=0.267 ESR(flow)=0.213 ddos19_d2_all=0.986 ids17_all=0.579
+[22:28:30] imp_reinit  r=13 sp=0.945 bacc=0.9973 F1=0.9971 ESR(u)=0.049 ESR(c)=0.257 ESR(flow)=0.092 ddos19_d2_all=0.997 ids17_all=0.540
+[22:28:56] random_lw   r=13 sp=0.945 bacc=0.9977 F1=0.9973 ESR(u)=0.100 ESR(c)=0.177 ESR(flow)=0.441 ddos19_d2_all=0.995 ids17_all=0.516
+[22:29:15] erk         r=13 sp=0.945 bacc=0.9980 F1=0.9977 ESR(u)=0.112 ESR(c)=0.169 ESR(flow)=0.211 ddos19_d2_all=0.992 ids17_all=0.547
+[22:29:33] snip        r=13 sp=0.945 bacc=0.9981 F1=0.9978 ESR(u)=0.159 ESR(c)=0.338 ESR(flow)=0.210 ddos19_d2_all=0.993 ids17_all=0.546
+[22:29:57] grasp       r=13 sp=0.945 bacc=0.9976 F1=0.9972 ESR(u)=0.163 ESR(c)=0.243 ESR(flow)=0.341 ddos19_d2_all=0.991 ids17_all=0.495
+[22:30:20] synflow     r=13 sp=0.945 bacc=0.9979 F1=0.9976 ESR(u)=0.202 ESR(c)=0.484 ESR(flow)=0.342 ddos19_d2_all=0.989 ids17_all=0.520
+[22:31:03] omp_ft      r=13 sp=0.945 bacc=0.9963 F1=0.9959 ESR(u)=0.199 ESR(c)=0.515 ESR(flow)=0.019 ddos19_d2_all=0.951 ids17_all=0.556
+[22:31:32] imp_reinit  r=16 sp=0.972 bacc=0.9925 F1=0.9931 ESR(u)=0.135 ESR(c)=0.116 ESR(flow)=0.032 ddos19_d2_all=0.960 ids17_all=0.553
+[22:31:42] random_lw   r=16 sp=0.972 bacc=0.9471 F1=0.9214 ESR(u)=0.131 ESR(c)=0.316 ESR(flow)=0.975 ddos19_d2_all=0.878 ids17_all=0.500
+[22:32:02] erk         r=16 sp=0.972 bacc=0.9983 F1=0.9980 ESR(u)=0.120 ESR(c)=0.394 ESR(flow)=0.663 ddos19_d2_all=0.990 ids17_all=0.529
+[22:32:32] snip        r=16 sp=0.972 bacc=0.9973 F1=0.9971 ESR(u)=0.101 ESR(c)=0.461 ESR(flow)=0.464 ddos19_d2_all=0.996 ids17_all=0.554
+[22:33:02] grasp       r=16 sp=0.972 bacc=0.9976 F1=0.9971 ESR(u)=0.125 ESR(c)=0.236 ESR(flow)=0.204 ddos19_d2_all=0.978 ids17_all=0.504
+[22:33:21] synflow     r=16 sp=0.972 bacc=0.9978 F1=0.9974 ESR(u)=0.203 ESR(c)=0.443 ESR(flow)=0.289 ddos19_d2_all=0.996 ids17_all=0.525
+[22:33:47] omp_ft      r=16 sp=0.972 bacc=0.5000 F1=0.4059 ESR(u)=0.000 ESR(c)=0.000 ESR(flow)=0.000 ddos19_d2_all=0.500 ids17_all=0.500
+[22:34:23] imp_reinit  r=20 sp=0.988 bacc=0.9274 F1=0.9059 ESR(u)=0.275 ESR(c)=0.000 ESR(flow)=0.506 ddos19_d2_all=0.849 ids17_all=0.732
+[22:34:32] random_lw   r=20 sp=0.988 bacc=0.5000 F1=0.2405 ESR(u)=0.000 ESR(c)=0.000 ESR(flow)=nan ddos19_d2_all=0.500 ids17_all=0.500
+[22:34:56] erk         r=20 sp=0.988 bacc=0.9975 F1=0.9971 ESR(u)=0.187 ESR(c)=0.038 ESR(flow)=0.096 ddos19_d2_all=0.996 ids17_all=0.601
+[22:35:32] snip        r=20 sp=0.988 bacc=0.9961 F1=0.9958 ESR(u)=0.013 ESR(c)=0.046 ESR(flow)=0.892 ddos19_d2_all=0.994 ids17_all=0.548
+[22:35:55] grasp       r=20 sp=0.988 bacc=0.9971 F1=0.9967 ESR(u)=0.013 ESR(c)=0.216 ESR(flow)=0.433 ddos19_d2_all=0.992 ids17_all=0.508
+[22:36:17] synflow     r=20 sp=0.988 bacc=0.9978 F1=0.9974 ESR(u)=0.231 ESR(c)=0.542 ESR(flow)=0.534 ddos19_d2_all=0.996 ids17_all=0.520
+[22:36:28] omp_ft      r=20 sp=0.988 bacc=0.5000 F1=0.2405 ESR(u)=0.000 ESR(c)=0.000 ESR(flow)=nan ddos19_d2_all=0.500 ids17_all=0.500
+[22:36:28] done

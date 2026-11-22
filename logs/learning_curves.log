@@ -1,0 +1,110 @@
+ids17 s0 dense  r= 0 test=0.9919 logged=0.9919465341163527
+ids17 s0 imp    r= 4 test=0.9929 logged=0.9929396128091945
+ids17 s0 imp    r= 7 test=0.9937 logged=0.9936825414119822
+ids17 s0 imp    r=10 test=0.9941 logged=0.9941481966628514
+ids17 s0 imp    r=13 test=0.9932 logged=0.9932242939104796
+ids17 s0 imp    r=16 test=0.9620 logged=0.9620186647820563
+ids17 s0 imp    r=20 test=0.5000 logged=0.5
+ids17 s0 erk    r=13 test=0.9917 logged=0.9916694886004498
+ids17 s0 erk    r=16 test=0.9917 logged=0.9916657277667625
+ddos19_d1 s0 dense  r= 0 test=0.9980 logged=0.9980489993771393
+ddos19_d1 s0 imp    r= 4 test=0.9986 logged=0.9986198010650233
+ddos19_d1 s0 imp    r= 7 test=0.9987 logged=0.998685903656245
+ddos19_d1 s0 imp    r=10 test=0.9987 logged=0.9986552645239453
+ddos19_d1 s0 imp    r=13 test=0.9984 logged=0.9984359662712248
+ddos19_d1 s0 imp    r=16 test=0.9831 logged=0.9830751847364689
+ddos19_d1 s0 imp    r=20 test=0.9177 logged=0.9177499825092843
+ddos19_d1 s0 erk    r=13 test=0.9980 logged=0.9980328332247057
+ddos19_d1 s0 erk    r=16 test=0.9983 logged=0.9982875949363479
+ids17 s1 dense  r= 0 test=0.9912 logged=0.991176710087716
+ids17 s1 imp    r= 4 test=0.9930 logged=0.9929586448136459
+ids17 s1 imp    r= 7 test=0.9937 logged=0.9937245940905877
+ids17 s1 imp    r=10 test=0.9939 logged=0.9939439740030978
+ids17 s1 imp    r=13 test=0.9924 logged=0.992423699704299
+ids17 s1 imp    r=16 test=0.9548 logged=0.9547871034691955
+ids17 s1 imp    r=20 test=0.5000 logged=0.5
+ids17 s1 erk    r=13 test=0.9915 logged=0.9914731293620938
+ids17 s1 erk    r=16 test=0.9920 logged=0.99195029495004
+ddos19_d1 s1 dense  r= 0 test=0.9982 logged=0.9981763802329604
+ddos19_d1 s1 imp    r= 4 test=0.9986 logged=0.9985891619327236
+ddos19_d1 s1 imp    r= 7 test=0.9988 logged=0.998818108838688
+ddos19_d1 s1 imp    r=10 test=0.9988 logged=0.9987520062474665
+ddos19_d1 s1 imp    r=13 test=0.9984 logged=0.9983746880066252
+ddos19_d1 s1 imp    r=16 test=0.9960 logged=0.9960384136622467
+ddos19_d1 s1 imp    r=20 test=0.9350 logged=0.9350159801464903
+ddos19_d1 s1 erk    r=13 test=0.9982 logged=0.9981908532128265
+ddos19_d1 s1 erk    r=16 test=0.9982 logged=0.9981602140805268
+ids17 s2 dense  r= 0 test=0.9923 logged=0.9923158901648876
+ids17 s2 imp    r= 4 test=0.9936 logged=0.993616898469184
+ids17 s2 imp    r= 7 test=0.9939 logged=0.9939363384177157
+ids17 s2 imp    r=10 test=0.9938 logged=0.9937748519446139
+ids17 s2 imp    r=13 test=0.9928 logged=0.992847188358555
+ids17 s2 imp    r=16 test=0.9620 logged=0.9619926822397017
+ids17 s2 imp    r=20 test=0.5000 logged=0.5
+ids17 s2 erk    r=13 test=0.9923 logged=0.9922620993131895
+ids17 s2 erk    r=16 test=0.9927 logged=0.9926933374708353
+ddos19_d1 s2 dense  r= 0 test=0.9982 logged=0.9981505654272826
+ddos19_d1 s2 imp    r= 4 test=0.9986 logged=0.9986246253916454
+ddos19_d1 s2 imp    r= 7 test=0.9989 logged=0.99885357229761
+ddos19_d1 s2 imp    r=10 test=0.9989 logged=0.99885357229761
+ddos19_d1 s2 imp    r=13 test=0.9982 logged=0.9981860288862046
+ddos19_d1 s2 imp    r=16 test=0.9944 logged=0.9944292678213056
+ddos19_d1 s2 imp    r=20 test=0.7970 logged=0.7970327126448946
+ddos19_d1 s2 erk    r=13 test=0.9980 logged=0.9980328332247057
+ddos19_d1 s2 erk    r=16 test=0.9981 logged=0.9981247506216049
+ids17 s3 dense  r= 0 test=0.9918 logged=0.9918387245769413
+ids17 s3 imp    r= 4 test=0.9929 logged=0.992897104458558
+ids17 s3 imp    r= 7 test=0.9938 logged=0.9937592390198265
+ids17 s3 imp    r=10 test=0.9943 logged=0.9942904232954862
+ids17 s3 imp    r=13 test=0.9924 logged=0.992369908852601
+ids17 s3 imp    r=16 test=0.9565 logged=0.9564710286832427
+ids17 s3 imp    r=20 test=0.5000 logged=0.5
+ids17 s3 erk    r=13 test=0.9922 logged=0.9922005589581017
+ids17 s3 erk    r=16 test=0.9915 logged=0.9915462939722663
+ddos19_d1 s3 dense  r= 0 test=0.9983 logged=0.9982521314774261
+ddos19_d1 s3 imp    r= 4 test=0.9987 logged=0.9987261914417888
+ddos19_d1 s3 imp    r= 7 test=0.9988 logged=0.9987874697063883
+ddos19_d1 s3 imp    r=10 test=0.9989 logged=0.99885357229761
+ddos19_d1 s3 imp    r=13 test=0.9982 logged=0.9982214923451262
+ddos19_d1 s3 imp    r=16 test=0.9959 logged=0.9959351544395357
+ddos19_d1 s3 imp    r=20 test=0.5000 logged=0.5
+ddos19_d1 s3 erk    r=13 test=0.9981 logged=0.9980586480303834
+ddos19_d1 s3 erk    r=16 test=0.9980 logged=0.9979925454391618
+ids17 s4 dense  r= 0 test=0.9917 logged=0.9916577504273573
+ids17 s4 imp    r= 4 test=0.9930 logged=0.9929626334833486
+ids17 s4 imp    r= 7 test=0.9937 logged=0.9937323435939776
+ids17 s4 imp    r=10 test=0.9943 logged=0.994340453313497
+ids17 s4 imp    r=13 test=0.9918 logged=0.9918157039027873
+ids17 s4 imp    r=16 test=0.9757 logged=0.975679141138026
+ids17 s4 imp    r=20 test=0.5000 logged=0.5
+ids17 s4 erk    r=13 test=0.9917 logged=0.9916502287599829
+ids17 s4 erk    r=16 test=0.9911 logged=0.9911499285798748
+ddos19_d1 s4 dense  r= 0 test=0.9982 logged=0.9982070193652601
+ddos19_d1 s4 imp    r= 4 test=0.9987 logged=0.998685903656245
+ddos19_d1 s4 imp    r= 7 test=0.9988 logged=0.9987520062474665
+ddos19_d1 s4 imp    r=10 test=0.9988 logged=0.9987520062474665
+ddos19_d1 s4 imp    r=13 test=0.9984 logged=0.9983795123332473
+ddos19_d1 s4 imp    r=16 test=0.9956 logged=0.9956318942705924
+ddos19_d1 s4 imp    r=20 test=0.9459 logged=0.9458804609149503
+ddos19_d1 s4 erk    r=13 test=0.9980 logged=0.9979619063068621
+ddos19_d1 s4 erk    r=16 test=0.9981 logged=0.9981295749482271
+AT s0 dense_at r= 0 test=0.9845 logged=0.984491491842704
+AT s0 aimp     r= 7 test=0.9853 logged=0.9853495238162622
+AT s0 aimp     r=13 test=0.9839 logged=0.9838605892850458
+AT s0 aimp     r=16 test=0.8961 logged=0.8960691747828167
+AT s1 dense_at r= 0 test=0.9848 logged=0.9848263168800078
+AT s1 aimp     r= 7 test=0.9858 logged=0.9858344389075981
+AT s1 aimp     r=13 test=0.9842 logged=0.9842453304223526
+AT s1 aimp     r=16 test=0.8817 logged=0.8816665703289785
+AT s2 dense_at r= 0 test=0.9848 logged=0.984772412110302
+AT s2 aimp     r= 7 test=0.9859 logged=0.9859037287660759
+AT s2 aimp     r=13 test=0.9844 logged=0.9844339401573188
+AT s2 aimp     r=16 test=0.9473 logged=0.9473487009218362
+AT s3 dense_at r= 0 test=0.9853 logged=0.98527271229041
+AT s3 aimp     r= 7 test=0.9860 logged=0.9860384337313364
+AT s3 aimp     r=13 test=0.9847 logged=0.9846532061518212
+AT s3 aimp     r=16 test=0.9245 logged=0.924460704300361
+AT s4 dense_at r= 0 test=0.9858 logged=0.9857576273817461
+AT s4 aimp     r= 7 test=0.9865 logged=0.9865002142305106
+AT s4 aimp     r=13 test=0.9845 logged=0.9844569608314728
+AT s4 aimp     r=16 test=0.9139 logged=0.9138673302138149

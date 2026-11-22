@@ -1,0 +1,140 @@
+ids17 s0 dense      r 0 bacc=0.9919 (logged 0.9919465341163527) chg=0.376 top5=0.184 rho=1.000 cerr=0.002
+ids17 s0 imp        r 4 bacc=0.9929 (logged 0.9929396128091945) chg=0.367 top5=0.214 rho=0.934 cerr=0.002
+ids17 s0 imp        r 7 bacc=0.9937 (logged 0.9936825414119822) chg=0.345 top5=0.211 rho=0.918 cerr=0.002
+ids17 s0 imp        r10 bacc=0.9941 (logged 0.9941481966628514) chg=0.350 top5=0.208 rho=0.918 cerr=0.002
+ids17 s0 imp        r13 bacc=0.9932 (logged 0.9932242939104796) chg=0.396 top5=0.142 rho=0.794 cerr=0.005
+ids17 s0 imp        r16 bacc=0.9620 (logged 0.9620186647820563) chg=0.369 top5=0.374 rho=0.362 cerr=0.013
+ids17 s0 erk        r 7 bacc=0.9914 (logged 0.991403839503616) chg=0.398 top5=0.210 rho=0.880 cerr=0.002
+ids17 s0 imp_reinit r 7 bacc=0.9915 (logged 0.9914846396991708) chg=0.422 top5=0.192 rho=0.746 cerr=0.002
+ids17 s0 erk        r10 bacc=0.9912 (logged 0.9912075941832676) chg=0.398 top5=0.169 rho=0.785 cerr=0.002
+ids17 s0 imp_reinit r10 bacc=0.9911 (logged 0.9910575041292353) chg=0.388 top5=0.189 rho=0.724 cerr=0.002
+ids17 s0 erk        r13 bacc=0.9917 (logged 0.9916694886004498) chg=0.385 top5=0.204 rho=0.683 cerr=0.002
+ids17 s0 imp_reinit r13 bacc=0.9906 (logged 0.9905882019626866) chg=0.394 top5=0.163 rho=0.786 cerr=0.004
+ids17 s0 erk        r16 bacc=0.9917 (logged 0.9916657277667625) chg=0.442 top5=0.210 rho=0.667 cerr=0.002
+ids17 s0 imp_reinit r16 bacc=0.9590 (logged 0.9590241575327669) chg=0.367 top5=0.334 rho=0.398 cerr=0.010
+ids17 s1 dense      r 0 bacc=0.9912 (logged 0.991176710087716) chg=0.396 top5=0.201 rho=1.000 cerr=0.001
+ids17 s1 imp        r 4 bacc=0.9930 (logged 0.9929586448136459) chg=0.348 top5=0.247 rho=0.914 cerr=0.001
+ids17 s1 imp        r 7 bacc=0.9937 (logged 0.9937245940905877) chg=0.336 top5=0.247 rho=0.892 cerr=0.002
+ids17 s1 imp        r10 bacc=0.9939 (logged 0.9939439740030978) chg=0.343 top5=0.225 rho=0.897 cerr=0.001
+ids17 s1 imp        r13 bacc=0.9924 (logged 0.992423699704299) chg=0.410 top5=0.181 rho=0.799 cerr=0.002
+ids17 s1 imp        r16 bacc=0.9548 (logged 0.9547871034691955) chg=0.404 top5=0.256 rho=0.561 cerr=0.018
+ids17 s1 erk        r 7 bacc=0.9911 (logged 0.9911189305663155) chg=0.382 top5=0.228 rho=0.784 cerr=0.002
+ids17 s1 imp_reinit r 7 bacc=0.9912 (logged 0.9912036055135651) chg=0.434 top5=0.196 rho=0.826 cerr=0.002
+ids17 s1 erk        r10 bacc=0.9911 (logged 0.9910766500516944) chg=0.372 top5=0.184 rho=0.803 cerr=0.002
+ids17 s1 imp_reinit r10 bacc=0.9912 (logged 0.9911843456730982) chg=0.412 top5=0.201 rho=0.805 cerr=0.002
+ids17 s1 erk        r13 bacc=0.9915 (logged 0.9914731293620938) chg=0.355 top5=0.209 rho=0.810 cerr=0.002
+ids17 s1 imp_reinit r13 bacc=0.9906 (logged 0.990557317867135) chg=0.381 top5=0.166 rho=0.866 cerr=0.002
+ids17 s1 erk        r16 bacc=0.9920 (logged 0.99195029495004) chg=0.408 top5=0.176 rho=0.759 cerr=0.002
+ids17 s1 imp_reinit r16 bacc=0.9565 (logged 0.9565480695845427) chg=0.491 top5=0.273 rho=0.512 cerr=0.019
+ids17 s2 dense      r 0 bacc=0.9923 (logged 0.9923158901648876) chg=0.401 top5=0.193 rho=1.000 cerr=0.001
+ids17 s2 imp        r 4 bacc=0.9936 (logged 0.993616898469184) chg=0.381 top5=0.179 rho=0.912 cerr=0.002
+ids17 s2 imp        r 7 bacc=0.9939 (logged 0.9939363384177157) chg=0.377 top5=0.164 rho=0.853 cerr=0.003
+ids17 s2 imp        r10 bacc=0.9938 (logged 0.9937748519446139) chg=0.379 top5=0.163 rho=0.822 cerr=0.002
+ids17 s2 imp        r13 bacc=0.9928 (logged 0.992847188358555) chg=0.377 top5=0.196 rho=0.839 cerr=0.002
+ids17 s2 imp        r16 bacc=0.9620 (logged 0.9619926822397017) chg=0.429 top5=0.298 rho=0.475 cerr=0.019
+ids17 s2 erk        r 7 bacc=0.9923 (logged 0.9922775983199692) chg=0.385 top5=0.185 rho=0.852 cerr=0.002
+ids17 s2 imp_reinit r 7 bacc=0.9917 (logged 0.9916886345229089) chg=0.427 top5=0.171 rho=0.813 cerr=0.002
+ids17 s2 erk        r10 bacc=0.9916 (logged 0.991638604504898) chg=0.373 top5=0.178 rho=0.845 cerr=0.002
+ids17 s2 imp_reinit r10 bacc=0.9915 (logged 0.9915386583868842) chg=0.392 top5=0.175 rho=0.820 cerr=0.002
+ids17 s2 erk        r13 bacc=0.9923 (logged 0.9922620993131895) chg=0.370 top5=0.192 rho=0.689 cerr=0.002
+ids17 s2 imp_reinit r13 bacc=0.9903 (logged 0.990276397599537) chg=0.388 top5=0.177 rho=0.760 cerr=0.003
+ids17 s2 erk        r16 bacc=0.9927 (logged 0.9926933374708353) chg=0.432 top5=0.191 rho=0.744 cerr=0.002
+ids17 s2 imp_reinit r16 bacc=0.9562 (logged 0.9561605944150509) chg=0.592 top5=0.364 rho=0.449 cerr=0.011
+ids17 s3 dense      r 0 bacc=0.9918 (logged 0.9918387245769413) chg=0.384 top5=0.193 rho=1.000 cerr=0.001
+ids17 s3 imp        r 4 bacc=0.9929 (logged 0.992897104458558) chg=0.397 top5=0.206 rho=0.949 cerr=0.001
+ids17 s3 imp        r 7 bacc=0.9938 (logged 0.9937592390198265) chg=0.394 top5=0.203 rho=0.925 cerr=0.001
+ids17 s3 imp        r10 bacc=0.9943 (logged 0.9942904232954862) chg=0.399 top5=0.217 rho=0.870 cerr=0.002
+ids17 s3 imp        r13 bacc=0.9924 (logged 0.992369908852601) chg=0.380 top5=0.204 rho=0.865 cerr=0.002
+ids17 s3 imp        r16 bacc=0.9565 (logged 0.9564710286832427) chg=0.464 top5=0.424 rho=0.329 cerr=0.016
+ids17 s3 erk        r 7 bacc=0.9912 (logged 0.991153689413562) chg=0.388 top5=0.199 rho=0.923 cerr=0.002
+ids17 s3 imp_reinit r 7 bacc=0.9916 (logged 0.9916154699127363) chg=0.395 top5=0.211 rho=0.738 cerr=0.002
+ids17 s3 erk        r10 bacc=0.9911 (logged 0.991096023810169) chg=0.423 top5=0.189 rho=0.768 cerr=0.002
+ids17 s3 imp_reinit r10 bacc=0.9911 (logged 0.9911306687394079) chg=0.390 top5=0.196 rho=0.736 cerr=0.002
+ids17 s3 erk        r13 bacc=0.9922 (logged 0.9922005589581017) chg=0.410 top5=0.198 rho=0.768 cerr=0.002
+ids17 s3 imp_reinit r13 bacc=0.9913 (logged 0.9913386522328487) chg=0.450 top5=0.179 rho=0.737 cerr=0.003
+ids17 s3 erk        r16 bacc=0.9915 (logged 0.9915462939722663) chg=0.468 top5=0.229 rho=0.705 cerr=0.002
+ids17 s3 imp_reinit r16 bacc=0.9527 (logged 0.9526514256195182) chg=0.382 top5=0.460 rho=0.356 cerr=0.010
+ids17 s4 dense      r 0 bacc=0.9917 (logged 0.9916577504273573) chg=0.353 top5=0.196 rho=1.000 cerr=0.002
+ids17 s4 imp        r 4 bacc=0.9930 (logged 0.9929626334833486) chg=0.331 top5=0.215 rho=0.956 cerr=0.002
+ids17 s4 imp        r 7 bacc=0.9937 (logged 0.9937323435939776) chg=0.345 top5=0.203 rho=0.929 cerr=0.002
+ids17 s4 imp        r10 bacc=0.9943 (logged 0.994340453313497) chg=0.327 top5=0.204 rho=0.901 cerr=0.002
+ids17 s4 imp        r13 bacc=0.9918 (logged 0.9918157039027873) chg=0.365 top5=0.171 rho=0.803 cerr=0.002
+ids17 s4 imp        r16 bacc=0.9757 (logged 0.975679141138026) chg=0.463 top5=0.212 rho=0.436 cerr=0.011
+ids17 s4 erk        r 7 bacc=0.9914 (logged 0.991446120018237) chg=0.370 top5=0.185 rho=0.833 cerr=0.002
+ids17 s4 imp_reinit r 7 bacc=0.9913 (logged 0.9912576242012785) chg=0.428 top5=0.175 rho=0.764 cerr=0.002
+ids17 s4 erk        r10 bacc=0.9910 (logged 0.9910189844483015) chg=0.388 top5=0.170 rho=0.784 cerr=0.002
+ids17 s4 imp_reinit r10 bacc=0.9912 (logged 0.9912461138642015) chg=0.422 top5=0.170 rho=0.809 cerr=0.002
+ids17 s4 erk        r13 bacc=0.9917 (logged 0.9916502287599829) chg=0.416 top5=0.200 rho=0.797 cerr=0.002
+ids17 s4 imp_reinit r13 bacc=0.9906 (logged 0.9906419928143846) chg=0.392 top5=0.167 rho=0.680 cerr=0.002
+ids17 s4 erk        r16 bacc=0.9911 (logged 0.9911499285798748) chg=0.396 top5=0.174 rho=0.782 cerr=0.002
+ids17 s4 imp_reinit r16 bacc=0.9687 (logged 0.9687025160109759) chg=0.438 top5=0.241 rho=0.599 cerr=0.013
+ddos19_d1 s0 dense      r 0 bacc=0.9980 (logged 0.9980489993771393) chg=0.568 top5=0.209 rho=1.000 cerr=0.001
+ddos19_d1 s0 imp        r 4 bacc=0.9986 (logged 0.9986198010650233) chg=0.565 top5=0.190 rho=0.953 cerr=0.001
+ddos19_d1 s0 imp        r 7 bacc=0.9987 (logged 0.998685903656245) chg=0.566 top5=0.206 rho=0.918 cerr=0.001
+ddos19_d1 s0 imp        r10 bacc=0.9987 (logged 0.9986552645239453) chg=0.565 top5=0.220 rho=0.873 cerr=0.001
+ddos19_d1 s0 imp        r13 bacc=0.9984 (logged 0.9984359662712248) chg=0.570 top5=0.194 rho=0.856 cerr=0.002
+ddos19_d1 s0 imp        r16 bacc=0.9831 (logged 0.9830751847364689) chg=0.560 top5=0.284 rho=0.660 cerr=0.004
+ddos19_d1 s0 erk        r 7 bacc=0.9981 (logged 0.9981457411006607) chg=0.560 top5=0.202 rho=0.850 cerr=0.001
+ddos19_d1 s0 imp_reinit r 7 bacc=0.9982 (logged 0.998247307150804) chg=0.592 top5=0.236 rho=0.834 cerr=0.001
+ddos19_d1 s0 erk        r10 bacc=0.9982 (logged 0.9982214923451262) chg=0.613 top5=0.268 rho=0.837 cerr=0.001
+ddos19_d1 s0 imp_reinit r10 bacc=0.9981 (logged 0.9981247506216049) chg=0.625 top5=0.220 rho=0.849 cerr=0.001
+ddos19_d1 s0 erk        r13 bacc=0.9980 (logged 0.9980328332247057) chg=0.604 top5=0.252 rho=0.818 cerr=0.001
+ddos19_d1 s0 imp_reinit r13 bacc=0.9973 (logged 0.9973153533745123) chg=0.591 top5=0.222 rho=0.820 cerr=0.002
+ddos19_d1 s0 erk        r16 bacc=0.9983 (logged 0.9982875949363479) chg=0.581 top5=0.256 rho=0.722 cerr=0.001
+ddos19_d1 s0 imp_reinit r16 bacc=0.9925 (logged 0.9925284588283136) chg=0.617 top5=0.287 rho=0.691 cerr=0.004
+ddos19_d1 s1 dense      r 0 bacc=0.9982 (logged 0.9981763802329604) chg=0.584 top5=0.213 rho=1.000 cerr=0.001
+ddos19_d1 s1 imp        r 4 bacc=0.9986 (logged 0.9985891619327236) chg=0.606 top5=0.230 rho=0.946 cerr=0.001
+ddos19_d1 s1 imp        r 7 bacc=0.9988 (logged 0.998818108838688) chg=0.636 top5=0.226 rho=0.937 cerr=0.001
+ddos19_d1 s1 imp        r10 bacc=0.9988 (logged 0.9987520062474665) chg=0.622 top5=0.211 rho=0.933 cerr=0.001
+ddos19_d1 s1 imp        r13 bacc=0.9984 (logged 0.9983746880066252) chg=0.576 top5=0.236 rho=0.828 cerr=0.001
+ddos19_d1 s1 imp        r16 bacc=0.9960 (logged 0.9960384136622467) chg=0.513 top5=0.354 rho=0.717 cerr=0.005
+ddos19_d1 s1 erk        r 7 bacc=0.9980 (logged 0.9980231845714616) chg=0.586 top5=0.227 rho=0.893 cerr=0.002
+ddos19_d1 s1 imp_reinit r 7 bacc=0.9981 (logged 0.9980844628360611) chg=0.583 top5=0.215 rho=0.883 cerr=0.001
+ddos19_d1 s1 erk        r10 bacc=0.9983 (logged 0.9983134097420256) chg=0.566 top5=0.221 rho=0.886 cerr=0.001
+ddos19_d1 s1 imp_reinit r10 bacc=0.9979 (logged 0.9979264428479402) chg=0.553 top5=0.210 rho=0.833 cerr=0.001
+ddos19_d1 s1 erk        r13 bacc=0.9982 (logged 0.9981908532128265) chg=0.597 top5=0.241 rho=0.809 cerr=0.002
+ddos19_d1 s1 imp_reinit r13 bacc=0.9976 (logged 0.9976104028716984) chg=0.583 top5=0.226 rho=0.835 cerr=0.002
+ddos19_d1 s1 erk        r16 bacc=0.9982 (logged 0.9981602140805268) chg=0.555 top5=0.293 rho=0.787 cerr=0.002
+ddos19_d1 s1 imp_reinit r16 bacc=0.9965 (logged 0.996525253433908) chg=0.467 top5=0.372 rho=0.602 cerr=0.005
+ddos19_d1 s2 dense      r 0 bacc=0.9982 (logged 0.9981505654272826) chg=0.558 top5=0.223 rho=1.000 cerr=0.001
+ddos19_d1 s2 imp        r 4 bacc=0.9986 (logged 0.9986246253916454) chg=0.598 top5=0.223 rho=0.937 cerr=0.001
+ddos19_d1 s2 imp        r 7 bacc=0.9989 (logged 0.99885357229761) chg=0.606 top5=0.226 rho=0.917 cerr=0.001
+ddos19_d1 s2 imp        r10 bacc=0.9989 (logged 0.99885357229761) chg=0.577 top5=0.208 rho=0.905 cerr=0.001
+ddos19_d1 s2 imp        r13 bacc=0.9982 (logged 0.9981860288862046) chg=0.532 top5=0.210 rho=0.870 cerr=0.001
+ddos19_d1 s2 imp        r16 bacc=0.9944 (logged 0.9944292678213056) chg=0.547 top5=0.247 rho=0.562 cerr=0.006
+ddos19_d1 s2 erk        r 7 bacc=0.9982 (logged 0.9982214923451262) chg=0.585 top5=0.250 rho=0.887 cerr=0.001
+ddos19_d1 s2 imp_reinit r 7 bacc=0.9981 (logged 0.9980538237037613) chg=0.629 top5=0.217 rho=0.892 cerr=0.001
+ddos19_d1 s2 erk        r10 bacc=0.9982 (logged 0.9981602140805268) chg=0.579 top5=0.216 rho=0.883 cerr=0.001
+ddos19_d1 s2 imp_reinit r10 bacc=0.9979 (logged 0.9978958037156405) chg=0.587 top5=0.209 rho=0.884 cerr=0.001
+ddos19_d1 s2 erk        r13 bacc=0.9980 (logged 0.9980328332247057) chg=0.576 top5=0.251 rho=0.857 cerr=0.001
+ddos19_d1 s2 imp_reinit r13 bacc=0.9973 (logged 0.9973153533745123) chg=0.600 top5=0.256 rho=0.828 cerr=0.003
+ddos19_d1 s2 erk        r16 bacc=0.9981 (logged 0.9981247506216049) chg=0.612 top5=0.235 rho=0.847 cerr=0.001
+ddos19_d1 s2 imp_reinit r16 bacc=0.9873 (logged 0.9873273446008648) chg=0.506 top5=0.342 rho=0.562 cerr=0.005
+ddos19_d1 s3 dense      r 0 bacc=0.9983 (logged 0.9982521314774261) chg=0.576 top5=0.215 rho=1.000 cerr=0.001
+ddos19_d1 s3 imp        r 4 bacc=0.9987 (logged 0.9987261914417888) chg=0.563 top5=0.197 rho=0.919 cerr=0.001
+ddos19_d1 s3 imp        r 7 bacc=0.9988 (logged 0.9987874697063883) chg=0.590 top5=0.218 rho=0.918 cerr=0.001
+ddos19_d1 s3 imp        r10 bacc=0.9989 (logged 0.99885357229761) chg=0.602 top5=0.214 rho=0.903 cerr=0.001
+ddos19_d1 s3 imp        r13 bacc=0.9982 (logged 0.9982214923451262) chg=0.590 top5=0.210 rho=0.827 cerr=0.002
+ddos19_d1 s3 imp        r16 bacc=0.9959 (logged 0.9959351544395357) chg=0.637 top5=0.320 rho=0.746 cerr=0.006
+ddos19_d1 s3 erk        r 7 bacc=0.9982 (logged 0.998247307150804) chg=0.591 top5=0.253 rho=0.885 cerr=0.001
+ddos19_d1 s3 imp_reinit r 7 bacc=0.9981 (logged 0.9980844628360611) chg=0.562 top5=0.240 rho=0.845 cerr=0.001
+ddos19_d1 s3 erk        r10 bacc=0.9984 (logged 0.9983795123332473) chg=0.554 top5=0.259 rho=0.819 cerr=0.001
+ddos19_d1 s3 imp_reinit r10 bacc=0.9980 (logged 0.9979619063068621) chg=0.574 top5=0.238 rho=0.844 cerr=0.001
+ddos19_d1 s3 erk        r13 bacc=0.9981 (logged 0.9980586480303834) chg=0.596 top5=0.231 rho=0.802 cerr=0.001
+ddos19_d1 s3 imp_reinit r13 bacc=0.9974 (logged 0.9974120950980336) chg=0.557 top5=0.231 rho=0.771 cerr=0.002
+ddos19_d1 s3 erk        r16 bacc=0.9980 (logged 0.9979925454391618) chg=0.667 top5=0.312 rho=0.819 cerr=0.001
+ddos19_d1 s3 imp_reinit r16 bacc=0.9958 (logged 0.9957964317579029) chg=0.487 top5=0.296 rho=0.656 cerr=0.008
+ddos19_d1 s4 dense      r 0 bacc=0.9982 (logged 0.9982070193652601) chg=0.535 top5=0.222 rho=1.000 cerr=0.001
+ddos19_d1 s4 imp        r 4 bacc=0.9987 (logged 0.998685903656245) chg=0.538 top5=0.202 rho=0.950 cerr=0.001
+ddos19_d1 s4 imp        r 7 bacc=0.9988 (logged 0.9987520062474665) chg=0.564 top5=0.201 rho=0.919 cerr=0.001
+ddos19_d1 s4 imp        r10 bacc=0.9988 (logged 0.9987520062474665) chg=0.573 top5=0.194 rho=0.897 cerr=0.001
+ddos19_d1 s4 imp        r13 bacc=0.9984 (logged 0.9983795123332473) chg=0.514 top5=0.186 rho=0.860 cerr=0.002
+ddos19_d1 s4 imp        r16 bacc=0.9956 (logged 0.9956318942705924) chg=0.528 top5=0.299 rho=0.659 cerr=0.007
+ddos19_d1 s4 erk        r 7 bacc=0.9980 (logged 0.9980231845714616) chg=0.546 top5=0.249 rho=0.912 cerr=0.001
+ddos19_d1 s4 imp_reinit r 7 bacc=0.9980 (logged 0.9979925454391618) chg=0.606 top5=0.251 rho=0.874 cerr=0.001
+ddos19_d1 s4 erk        r10 bacc=0.9981 (logged 0.9980892871626832) chg=0.582 top5=0.222 rho=0.880 cerr=0.001
+ddos19_d1 s4 imp_reinit r10 bacc=0.9979 (logged 0.9979312671745623) chg=0.598 top5=0.242 rho=0.860 cerr=0.001
+ddos19_d1 s4 erk        r13 bacc=0.9980 (logged 0.9979619063068621) chg=0.562 top5=0.252 rho=0.862 cerr=0.001
+ddos19_d1 s4 imp_reinit r13 bacc=0.9971 (logged 0.9971315185807137) chg=0.553 top5=0.237 rho=0.828 cerr=0.002
+ddos19_d1 s4 erk        r16 bacc=0.9981 (logged 0.9981295749482271) chg=0.591 top5=0.225 rho=0.754 cerr=0.002
+ddos19_d1 s4 imp_reinit r16 bacc=0.9962 (logged 0.9962157309568558) chg=0.578 top5=0.364 rho=0.627 cerr=0.004

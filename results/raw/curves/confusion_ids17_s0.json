@@ -1,0 +1,1 @@
+{"dense": {"clean_test": [[32343, 156], [113, 9881]], "attack_flows": 3000, "detected_before": 2966, "evaded_rho1": 1454}, "imp_97.2": {"clean_test": [[31279, 1220], [384, 9610]], "attack_flows": 3000, "detected_before": 2869, "evaded_rho1": 2650}}

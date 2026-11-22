@@ -1,0 +1,99 @@
+DrDoS_DNS.parquet: rows=4912019 benign=3354 attack_kept=29898 [16s]
+DrDoS_LDAP.parquet: rows=2142892 benign=1592 attack_kept=29920 [23s]
+DrDoS_MSSQL.parquet: rows=4398032 benign=1986 attack_kept=30193 [33s]
+DrDoS_NTP.parquet: rows=1209961 benign=14271 attack_kept=29372 [38s]
+DrDoS_NetBIOS.parquet: rows=3965133 benign=1687 attack_kept=30195 [50s]
+DrDoS_SNMP.parquet: rows=5150754 benign=1493 attack_kept=30095 [65s]
+DrDoS_SSDP.parquet: rows=2569324 benign=755 attack_kept=29598 [75s]
+DrDoS_UDP.parquet: rows=3096129 benign=2127 attack_kept=30261 [86s]
+Syn.parquet: rows=1380364 benign=381 attack_kept=30024 [90s]
+TFTP.parquet: rows=19541066 benign=25095 attack_kept=29991 [154s]
+UDPLag.parquet: rows=334202 benign=3684 attack_kept=29479 [155s]
+{
+ "dataset": "CIC-DDoS2019",
+ "day": "01-12",
+ "source": "train_parquet",
+ "attack_cap_per_file": 30000,
+ "seed": 0,
+ "per_file": {
+  "DrDoS_DNS.parquet": {
+   "rows": 4912019,
+   "benign_kept": 3354,
+   "attack_kept": 29898
+  },
+  "DrDoS_LDAP.parquet": {
+   "rows": 2142892,
+   "benign_kept": 1592,
+   "attack_kept": 29920
+  },
+  "DrDoS_MSSQL.parquet": {
+   "rows": 4398032,
+   "benign_kept": 1986,
+   "attack_kept": 30193
+  },
+  "DrDoS_NTP.parquet": {
+   "rows": 1209961,
+   "benign_kept": 14271,
+   "attack_kept": 29372
+  },
+  "DrDoS_NetBIOS.parquet": {
+   "rows": 3965133,
+   "benign_kept": 1687,
+   "attack_kept": 30195
+  },
+  "DrDoS_SNMP.parquet": {
+   "rows": 5150754,
+   "benign_kept": 1493,
+   "attack_kept": 30095
+  },
+  "DrDoS_SSDP.parquet": {
+   "rows": 2569324,
+   "benign_kept": 755,
+   "attack_kept": 29598
+  },
+  "DrDoS_UDP.parquet": {
+   "rows": 3096129,
+   "benign_kept": 2127,
+   "attack_kept": 30261
+  },
+  "Syn.parquet": {
+   "rows": 1380364,
+   "benign_kept": 381,
+   "attack_kept": 30024
+  },
+  "TFTP.parquet": {
+   "rows": 19541066,
+   "benign_kept": 25095,
+   "attack_kept": 29991
+  },
+  "UDPLag.parquet": {
+   "rows": 334202,
+   "benign_kept": 3684,
+   "attack_kept": 29479
+  }
+ },
+ "rows_after_sampling": 385451,
+ "dropped_nan_inf": 0,
+ "dropped_duplicates": 226249,
+ "label_ambiguous_rows": 8416,
+ "final_rows": 159202,
+ "class_counts": {
+  "BENIGN": 50423,
+  "DrDoS_NTP": 28018,
+  "DrDoS_UDP": 16068,
+  "DrDoS_SSDP": 15752,
+  "TFTP": 15679,
+  "DrDoS_MSSQL": 8837,
+  "UDP-lag": 8793,
+  "DrDoS_SNMP": 4502,
+  "Syn": 4243,
+  "DrDoS_DNS": 3633,
+  "DrDoS_LDAP": 2302,
+  "DrDoS_NetBIOS": 910,
+  "WebDDoS": 42
+ },
+ "binary_counts": {
+  "1": 108779,
+  "0": 50423
+ }
+}

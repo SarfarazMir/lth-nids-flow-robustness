@@ -1,0 +1,9 @@
+# keep Unix line endings for shell scripts; mark data and model files as binary
+*.sh text eol=lf
+*.py text
+*.md text
+*.pt binary
+*.npy binary
+*.parquet binary
+*.png binary
+*.pdf binary

@@ -1,0 +1,38 @@
+[04:31:51] args={'src': 'ddos19_d1', 'tgt': 'ids17', 'arch': 'mlp', 'seed': 3, 'src_tag': '', 'fracs': '0.01,1.0', 'rounds': '10,13,16', 'epochs': 10, 'lr': 0.001, 'conds': 'dense_scratch,dense_ft,tkt_rewind,tkt_reinit,tkt_ft,rand_rewind,snip_tgt', 'n_attack': 3000, 'no_robust': False, 'tag': ''}
+[04:31:51] frac=0.01 n_train=1983 epochs=150
+[04:32:03] dense_scratch frac=0.01  r= 0 sp=0.000 bacc=0.9753 F1=0.9735 flow_ESR_AUC=0.604
+[04:32:12] dense_ft      frac=0.01  r= 0 sp=0.000 bacc=0.9659 F1=0.9577 flow_ESR_AUC=0.459
+[04:32:22] tkt_rewind    frac=0.01  r=10 sp=0.893 bacc=0.9764 F1=0.9726 flow_ESR_AUC=0.604
+[04:32:31] tkt_reinit    frac=0.01  r=10 sp=0.893 bacc=0.9769 F1=0.9753 flow_ESR_AUC=0.631
+[04:32:41] tkt_ft        frac=0.01  r=10 sp=0.893 bacc=0.9466 F1=0.9238 flow_ESR_AUC=0.354
+[04:32:50] rand_rewind   frac=0.01  r=10 sp=0.893 bacc=0.9771 F1=0.9750 flow_ESR_AUC=0.629
+[04:33:00] snip_tgt      frac=0.01  r=10 sp=0.893 bacc=0.9755 F1=0.9743 flow_ESR_AUC=0.695
+[04:33:10] tkt_rewind    frac=0.01  r=13 sp=0.945 bacc=0.9728 F1=0.9705 flow_ESR_AUC=0.687
+[04:33:19] tkt_reinit    frac=0.01  r=13 sp=0.945 bacc=0.9758 F1=0.9737 flow_ESR_AUC=0.744
+[04:33:28] tkt_ft        frac=0.01  r=13 sp=0.945 bacc=0.9140 F1=0.8655 flow_ESR_AUC=0.274
+[04:33:37] rand_rewind   frac=0.01  r=13 sp=0.945 bacc=0.9758 F1=0.9728 flow_ESR_AUC=0.716
+[04:33:46] snip_tgt      frac=0.01  r=13 sp=0.945 bacc=0.9762 F1=0.9740 flow_ESR_AUC=0.600
+[04:33:55] tkt_rewind    frac=0.01  r=16 sp=0.972 bacc=0.9045 F1=0.8841 flow_ESR_AUC=0.731
+[04:34:05] tkt_reinit    frac=0.01  r=16 sp=0.972 bacc=0.9344 F1=0.8998 flow_ESR_AUC=0.763
+[04:34:14] tkt_ft        frac=0.01  r=16 sp=0.972 bacc=0.4571 F1=0.3951 flow_ESR_AUC=0.202
+[04:34:15] rand_rewind   frac=0.01  r=16 sp=0.972 bacc=0.5000 F1=0.4334 flow_ESR_AUC=nan
+[04:34:25] snip_tgt      frac=0.01  r=16 sp=0.972 bacc=0.9725 F1=0.9697 flow_ESR_AUC=0.525
+[04:34:26] frac=1.0 n_train=198307 epochs=10
+[04:34:41] dense_scratch frac=1.0   r= 0 sp=0.000 bacc=0.9918 F1=0.9913 flow_ESR_AUC=0.453
+[04:34:57] dense_ft      frac=1.0   r= 0 sp=0.000 bacc=0.9903 F1=0.9889 flow_ESR_AUC=0.480
+[04:35:13] tkt_rewind    frac=1.0   r=10 sp=0.893 bacc=0.9911 F1=0.9905 flow_ESR_AUC=0.482
+[04:35:28] tkt_reinit    frac=1.0   r=10 sp=0.893 bacc=0.9913 F1=0.9908 flow_ESR_AUC=0.462
+[04:35:43] tkt_ft        frac=1.0   r=10 sp=0.893 bacc=0.9853 F1=0.9830 flow_ESR_AUC=0.560
+[04:35:59] rand_rewind   frac=1.0   r=10 sp=0.893 bacc=0.9916 F1=0.9910 flow_ESR_AUC=0.490
+[04:36:14] snip_tgt      frac=1.0   r=10 sp=0.893 bacc=0.9914 F1=0.9908 flow_ESR_AUC=0.592
+[04:36:29] tkt_rewind    frac=1.0   r=13 sp=0.945 bacc=0.9910 F1=0.9899 flow_ESR_AUC=0.575
+[04:36:45] tkt_reinit    frac=1.0   r=13 sp=0.945 bacc=0.9906 F1=0.9899 flow_ESR_AUC=0.425
+[04:37:00] tkt_ft        frac=1.0   r=13 sp=0.945 bacc=0.9811 F1=0.9780 flow_ESR_AUC=0.587
+[04:37:15] rand_rewind   frac=1.0   r=13 sp=0.945 bacc=0.9906 F1=0.9901 flow_ESR_AUC=0.488
+[04:37:30] snip_tgt      frac=1.0   r=13 sp=0.945 bacc=0.9911 F1=0.9909 flow_ESR_AUC=0.485
+[04:37:45] tkt_rewind    frac=1.0   r=16 sp=0.972 bacc=0.9649 F1=0.9537 flow_ESR_AUC=0.656
+[04:38:00] tkt_reinit    frac=1.0   r=16 sp=0.972 bacc=0.9746 F1=0.9663 flow_ESR_AUC=0.502
+[04:38:15] tkt_ft        frac=1.0   r=16 sp=0.972 bacc=0.8690 F1=0.8366 flow_ESR_AUC=0.452
+[04:38:22] rand_rewind   frac=1.0   r=16 sp=0.972 bacc=0.5000 F1=0.4334 flow_ESR_AUC=nan
+[04:38:37] snip_tgt      frac=1.0   r=16 sp=0.972 bacc=0.9913 F1=0.9904 flow_ESR_AUC=0.505
+[04:38:37] done
